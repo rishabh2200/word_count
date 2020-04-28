@@ -1,0 +1,10 @@
+<h1>no of words {{ count }}</h1>
+<a href="{% url 'home' %}">go to home</a>
+<br/>
+<h1>your original</h1>
+{{fulltext}}
+<h1>rishabh</h1>
+{% for i,j in worddis %}
+{{i}}-{{j}}
+<br/>
+{% endfor %}
